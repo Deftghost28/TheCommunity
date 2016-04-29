@@ -4,30 +4,30 @@ Application mobile d'interaction
 ####Synopsis
 
 
-###Exemple de code
+####Exemple de code
 
 
 
-###Motivation
+####Motivation
 
 
 
-###Installation
+####Installation
 
 
 
-###Les API
+####Les API
 
 
 
-###Les Tests
+####Les Tests
 
 
 
-###Les contributeurs 
+####Les contributeurs 
 
 
 
-###License
+####License
 
 
