@@ -1,7 +1,7 @@
 # TheCommunity
 Application mobile d'interaction
 
-###Synopsis
+####Synopsis
 
 
 ###Exemple de code
