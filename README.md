@@ -4,7 +4,7 @@ Application mobile d'interaction
 ###Synopsis
 
 
-###Code Example
+###Exemple de code
 
 
 
@@ -16,15 +16,15 @@ Application mobile d'interaction
 
 
 
-###API Reference
+###Les API
 
 
 
-###Tests
+###Les Tests
 
 
 
-###Contributors
+###Les contributeurs 
 
 
 
