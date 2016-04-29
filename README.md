@@ -24,7 +24,7 @@ Application mobile d'interaction
 ...
 
 
-####Les contributeurs 
+####Les contributions
 ...
 
 
