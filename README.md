@@ -17,8 +17,7 @@ Application mobile d'interaction
 
 
 ####Les API
-Node JS
-Cordova
+Node JS, Cordova, 
 Ionic Framework
 
 
