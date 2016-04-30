@@ -24,14 +24,8 @@ angular.module('starter', ['ionic'])
 })
 
 // Mise en place de la navigation
-.config(function($stateProvider,$urlRouterProvider){
-  $stateProvider.state('home',{
-    url:'/home',
-    templateUrl:'templates/home.html'
-  })
-$stateProvider.state('about',{
-  url:'/about',
-  templateUrl:'templates/about.html'
-})
-$urlRouterProvider.otherwise('/home')
-});
+function ContentController($scope, $ionicSideMenuDelegate) {
+  $scope.toggleLeft = function() {
+    $ionicSideMenuDelegate.toggleLeft();
+  };
+}
