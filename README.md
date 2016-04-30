@@ -17,7 +17,9 @@ Application mobile d'interaction
 
 
 ####Les API
-...
+Node JS
+Cordova
+Ionic Framework
 
 
 ####Les Tests
