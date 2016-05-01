@@ -12,44 +12,25 @@
   <script src="cordova.js"></script>
   <!-- your app's js -->
   <script src="js/app.js"></script>
+  <script src="js/controllers.js"></script>
+  <script src="js/services.js"></script>
 </head>
 <body ng-app="starter">
-
-  <ion-view title="body">
-    <!-- En tête-->
-    <ion-nav-bar align-title="center" class="bar-calm">
-
-    </ion-nav-bar>
-
-
-
-    <ion-side-menus>
-      <!-- Menu de gauche -->
-      <ion-side-menu side="left">
-      </ion-side-menu>
-
-      <ion-side-menu-content>
-        <!-- Contenu principale -->
-      </ion-side-menu-content>
-
-    </ion-side-menus>
-
-
-
-              <!-- Pied de page -->
-    <ion-footer-bar align-title="center" class="bar-calm">
-      <div class="buttons" ng-click="doSomething()">
+  <ion-pane>
+    <ion-header-bar align-title="center" class="bar-dark">
+      <h1 class="title">TheCommunity</h1>
+    </ion-header-bar>
+    <ion-content>
+    </ion-content>
+    <ion-footer-bar align-title="center" class="bar-dark">
+      <div class="buttons">
         <button class="button">Précédent</button>
       </div>
-      <div class="title">
-        By Stogon
-      </div>
+      <h1 class="title">By Stogon</h1>
       <div class="buttons" ng-click="doSomething()">
         <button class="button">Suivant</button>
       </div>
     </ion-footer-bar>
-  </ion-view>
-
+  </ion-pane>
 </body>
-
 </html>
