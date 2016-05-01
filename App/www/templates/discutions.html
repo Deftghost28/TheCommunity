@@ -1,0 +1,9 @@
+<ion-view view-title="Discutions">
+  <ion-content>
+    <ion-list>
+      <ion-item ng-repeat="discution in discutions" href="#/app/discutions/{{discution.id}}">
+        {{discution.title}}
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
