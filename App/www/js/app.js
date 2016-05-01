@@ -35,12 +35,12 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       }
     }
   })
-  .state('app.discutions', {
-    url: '/discutions',
+  .state('app.discussions', {
+    url: '/discussions',
     views: {
       'menuContent': {
-        templateUrl: 'templates/discutions.html',
-        controller: 'discutionsCtrl'
+        templateUrl: 'templates/discussions.html',
+        controller: 'discussionsCtrl'
       }
     }
   })
@@ -76,15 +76,15 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       }
     }
   })
-  .state('app.discution', {
-    url: '/discutions/:discutionId',
+  .state('app.discussion', {
+    url: '/discussions/:discussionId',
     views: {
       'menuContent': {
-        templateUrl: 'templates/discution.html',
-        controller: 'discutionCtrl'
+        templateUrl: 'templates/discussion.html',
+        controller: 'discussionCtrl'
       }
     }
   });
   // if none of the above states are matched, use this as the fallback
-  $urlRouterProvider.otherwise('/app/discutions');
+  $urlRouterProvider.otherwise('/app/discussions');
 });
