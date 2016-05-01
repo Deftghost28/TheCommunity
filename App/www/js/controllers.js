@@ -41,8 +41,8 @@ angular.module('starter.controllers', [])
   };
 })
 
-.controller('discutionsCtrl', function($scope) {
-  $scope.discutions = [
+.controller('discussionsCtrl', function($scope) {
+  $scope.discussions = [
     { title: 'Sujet 1', id: 1 },
     { title: 'Sujet 2', id: 2 },
     { title: 'Sujet 3', id: 3 },
@@ -52,5 +52,5 @@ angular.module('starter.controllers', [])
   ];
 })
 
-.controller('discutionCtrl', function($scope, $stateParams) {
+.controller('discussionCtrl', function($scope, $stateParams) {
 });
