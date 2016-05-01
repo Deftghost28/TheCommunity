@@ -43,12 +43,12 @@ angular.module('starter.controllers', [])
 
 .controller('discutionsCtrl', function($scope) {
   $scope.discutions = [
-    { title: 'sujet1', id: 1 },
-    { title: 'sujet2', id: 2 },
-    { title: 'sujet3', id: 3 },
-    { title: 'sujet4', id: 4 },
-    { title: 'sujet5', id: 5 },
-    { title: 'sujet6', id: 6 }
+    { title: 'Sujet 1', id: 1 },
+    { title: 'Sujet 2', id: 2 },
+    { title: 'Sujet 3', id: 3 },
+    { title: 'Sujet 4', id: 4 },
+    { title: 'Sujet 5', id: 5 },
+    { title: 'Sujet 6', id: 6 }
   ];
 })
 

@@ -1,8 +1,9 @@
 <ion-view  view-title="TheCommunity">
   <ion-content>
     <ion-list>
-      <ion-item ng-repeat="discution in discutions" href="#/app/discutions/{{discution.id}}">
+      <ion-item class="item-icon-right" ng-repeat="discution in discutions" href="#/app/discutions/{{discution.id}}">
         {{discution.title}}
+        <i class=" icon ion-ios-heart-outline"></i>
       </ion-item>
     </ion-list>
   </ion-content>
