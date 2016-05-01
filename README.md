@@ -1,8 +1,8 @@
 # TheCommunity
-Application mobile d'interaction
+Application mobile
 
 ####Synopsis
-...
+Application mobile d'interaction entre les utilisateurs par la création d'un sujet
 
 ####Exemple de code
 ...
@@ -17,7 +17,7 @@ Application mobile d'interaction
 
 
 ####Les API
-Node JS, Cordova, Angular js, 
+Node JS, Cordova, Angular js,
 Ionic Framework
 
 
@@ -26,8 +26,12 @@ Ionic Framework
 
 
 ####Les contributions
-...
+StogonDev :
+
+-Nutr4x
+-Protek
+-Deftghost
+-Nessiml
 
 
 ####License
-...
